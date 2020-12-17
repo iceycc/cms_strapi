@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "apps",
+  "info": {
+    "name": "apps",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "thema": {
+      "type": "json"
+    },
+    "path": {
+      "type": "string"
+    },
+    "appId": {
+      "type": "uid"
+    }
+  }
+}
