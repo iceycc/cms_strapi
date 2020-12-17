@@ -7,7 +7,10 @@
     "dev": "strapi develop",
     "develop": "strapi develop",
     "start": "strapi start",
+    "pm2:start":"pm2 start --name cms_strapi server.js",
+    "pm2:stop":"pm2 stop cms_strapi",
     "build": "strapi build",
+    "build:pro": "NODE_ENV=production yarn build",
     "strapi": "strapi"
   },
   "devDependencies": {},
